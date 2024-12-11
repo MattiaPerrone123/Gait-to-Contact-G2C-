@@ -9,30 +9,25 @@ Input data are consists on multivariate time series including:
 * internal/external rotation of the knee implant during gait
 * flexion/extension rotation of the knee implant during gait
 * axial loading within the knee implant during gait
-These data are not included in the repo and available on request.
+These data are not included in the repo and available on request
 
 ## Repository Structure
-* main.ipynb: Jupyter Notebook for running the pipeline.
+* main.ipynb: Jupyter Notebook for running the pipeline
 * functions/: Contains modular Python functions organized as:
-    * utilities.py: General utility functions
-    * data_processing.py: Data preprocessing and handling
-    * model.py: Model definition 
-    * train_validate.py: Functions for training and validation
-    * evaluate.py: Metrics and evaluation functions
-    * metrics.py: Specific metrics calculation like SSIM, NMI, and MAPE
-    * hp_tuning.py: Hyperparameter tuning utilities
- 
-      
-* G2C - MedRxiv.pdf: MedRxiv preprint describing the methodology and results.
-Usage
-
-
-Data Preparation
-This project processes input data and saves them to a folder before further analysis. Since the data is not included in the repository due to privacy concerns, users must provide their datasets. To integrate your data:
-1. Place your raw input data in a folder (e.g., data/).
-2. Update paths in main.ipynb:
-    * path_data: Path to raw input data.
-    * path_output: Path for saving processed data.
+    * utilities.py: general utility functions
+    * data_processing.py: functions for data preprocessing, handling and preparation
+    * model.py: model definition and architecture setup
+    * train_validate.py: includes training and validation functions for the model
+    * evaluate.py: metrics and evaluation functions
+    * metrics.py: functions to for specific metrics calculation like SSIM, NMI, and MAPE
+    * hp_tuning.py: hyperparameter tuning utilities
+    * interpolate.py: functions to export data from Abaqus 
+* docs/
+    * abstract ISTA 2024: abstract accepted at ISTA 2024 and presented as a podium presentation
+    * paper medRxiv: preprint version of the research paper currently under reviw
+* figures/
+    * pipeline visualization: figure showcasing the end-to-end workflow of the project
+* requirements.txt: list of all necessary dependencies for running the project
 
 
 ## Key Steps in the Pipeline
@@ -40,14 +35,18 @@ This project processes input data and saves them to a folder before further anal
 * Model Training: Trains a continuous model for wear scar prediction, saving the best model in ONNX format.
 * Evaluation: Computes evaluation metrics and visualizes predictions against ground truth.
 
+
+
   
 
 ## References
-This work is a preprint and has not yet been peer-reviewed. Please cite the MedRxiv version as follows: DIRE CHE ORA è UNDER REVIEW
+This work is a preprint and is currently undergoing peer review. Please cite the MedRxiv version as follows:
 
-@article{your_reference,
-  title={Wear Scar Prediction in Total Knee Replacements},
-  author={Your Name et al.},
+```
+@article{perrone2024g2c,
+  title={Gait-to-Contact (G2C) - A novel deep learning framework to predict total knee replacement wear from gait patterns},
+  author={Perrone M. et al.},
   journal={MedRxiv},
   year={2024}
 }
+```
