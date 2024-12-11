@@ -37,7 +37,7 @@ These data are not included in the repo and available on request
     * ```abstract ISTA 2024:``` abstract accepted at ISTA 2024 and presented as a podium presentation
     * ```paper medRxiv:``` preprint version of the research paper currently under reviw
 * ```figures/```
-    * ```pipeline visualization:``` figure showcasing the end-to-end workflow of the project
+    * ```pipeline:``` figure showcasing the end-to-end workflow of the project
 * ```requirements.txt:``` list of all necessary dependencies for running the project
 
 
