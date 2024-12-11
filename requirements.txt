@@ -1,0 +1,22 @@
+python
+
+torch
+torchvision
+pytorch-lightning
+optuna
+
+onnx>=1.16.1
+onnxruntime>=1.16.0
+
+# Scientific Computing
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+
+matplotlib
+alphashape
+shapely
+
+tkintertable
