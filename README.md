@@ -6,7 +6,7 @@ This project aims to predict wear scars in total knee replacements (TKRs) settin
 <br>
 
 <p align="center">
-  <img src="figures/pipeline.png" width="1000" height="300">
+  <img src="figures/pipeline.png" width="1100" height="300">
 </p>
 
 <br>
@@ -22,28 +22,28 @@ Input data are consists on multivariate time series including:
 These data are not included in the repo and available on request
 
 ## Repository Structure
-* main.ipynb: Jupyter Notebook for running the pipeline
-* functions/: Contains modular Python functions organized as:
-    * utilities.py: general utility functions
-    * data_processing.py: functions for data preprocessing, handling and preparation
-    * model.py: model definition and architecture setup
-    * train_validate.py: includes training and validation functions for the model
-    * evaluate.py: metrics and evaluation functions
-    * metrics.py: functions to for specific metrics calculation like SSIM, NMI, and MAPE
-    * hp_tuning.py: hyperparameter tuning utilities
-    * interpolate.py: functions to export data from Abaqus 
-* docs/
-    * abstract ISTA 2024: abstract accepted at ISTA 2024 and presented as a podium presentation
-    * paper medRxiv: preprint version of the research paper currently under reviw
-* figures/
-    * pipeline visualization: figure showcasing the end-to-end workflow of the project
-* requirements.txt: list of all necessary dependencies for running the project
+* ```main.ipynb:``` Jupyter Notebook for running the pipeline
+* ```functions/:``` Contains modular Python functions organized as:
+    * ```utilities.py:``` general utility functions
+    * ```data_processing.py:``` functions for data preprocessing, handling and preparation
+    * ```model.py:``` model definition and architecture setup
+    * ```train_validate.py:``` includes training and validation functions for the model
+    * ```evaluate.py:``` metrics and evaluation functions
+    * ```metrics.py:``` functions to for specific metrics calculation like SSIM, NMI, and MAPE
+    * ```hp_tuning.py:``` hyperparameter tuning utilities
+    * ```interpolate.py:``` functions to export data from Abaqus 
+* ```docs/```
+    * ```abstract ISTA 2024:``` abstract accepted at ISTA 2024 and presented as a podium presentation
+    * ```paper medRxiv:``` preprint version of the research paper currently under reviw
+* ```figures/```
+    * ```pipeline visualization:``` figure showcasing the end-to-end workflow of the project
+* ```requirements.txt:``` list of all necessary dependencies for running the project
 
 
 ## Key Steps in the Pipeline
-* Preprocessing: Processes raw gait parameters and saves them to an output folder.
-* Model Training: Trains a continuous model for wear scar prediction, saving the best model in ONNX format.
-* Evaluation: Computes evaluation metrics and visualizes predictions against ground truth.
+* ```Preprocessing:``` Processes raw gait parameters and saves them to an output folder
+* ```Model Training:``` Trains a continuous model for wear scar prediction, saving the best model in ONNX format
+* ```Evaluation:``` Computes evaluation metrics and visualizes predictions against ground truth
 
 
 
