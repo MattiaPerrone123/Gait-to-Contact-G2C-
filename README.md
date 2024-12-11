@@ -1,1 +1,1 @@
-# Gait-to-Contact G2C
+# Gait-to-Contact (G2C)
