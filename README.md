@@ -6,7 +6,7 @@ This project aims to predict wear scars in total knee replacements (TKRs) settin
 <br>
 
 <p align="center">
-  <img src="figures/pipeline.png" width="1100" height="250">
+  <img src="figures/pipeline.png" width="1100" height="220">
 </p>
 
 <br>
@@ -15,10 +15,11 @@ This project aims to predict wear scars in total knee replacements (TKRs) settin
 
 ## Data
 Input data are consists on multivariate time series including:
-* anterior/posterior translation of the knee implant during gait 
-* internal/external rotation of the knee implant during gait
-* flexion/extension rotation of the knee implant during gait
-* axial loading within the knee implant during gait <br>
+* ```anterior/posterior translation``` of the knee implant during gait 
+* ```internal/external rotation``` of the knee implant during gait
+* ```flexion/extension rotation``` of the knee implant during gait
+* ```axial loading``` within the knee implant during gait <br>
+
 These data are not included in the repo and available on request
 
 ## Repository Structure
