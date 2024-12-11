@@ -6,7 +6,7 @@ This project aims to predict wear scars in total knee replacements (TKRs) settin
 <br>
 
 <p align="center">
-  <img src="figures/pipeline.png" width="700" height="430">
+  <img src="figures/pipeline.png" width="1000" height="300">
 </p>
 
 <br>
