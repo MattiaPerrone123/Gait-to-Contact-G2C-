@@ -1,28 +1,28 @@
-# Python cache and temporary files
+#Python cache and temporary files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
+#Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# System files
+#System files
 .DS_Store
 Thumbs.db
 
-# Virtual environment
+#Virtual environment
 env/
 venv/
 
-# Logs
+#Logs
 *.log
 
-# Compiled files
+#Compiled files
 *.so
 
-# ONNX model files (if applicable, remove if you want them in the repo)
+#ONNX model files (if applicable, remove if you want them in the repo)
 *.onnx
 
-# Other temporary files
+#Other temporary files
 *.tmp
 *.temp
