@@ -1,14 +1,24 @@
 # Gait-to-Contact (G2C)
 
-## Overview
 This project aims to predict wear scars in total knee replacements (TKRs) settings using a transformer-CNN based encoder-decoder architecture. The methodology combines gait parameters as inputs and processes them to generate heatmaps representing wear scars, which are compared against ground truth using various metrics (MAPE, SSIM, NMI).
+
+
+<br>
+
+<p align="center">
+  <img src="figures/pipeline.png" width="700" height="430">
+</p>
+
+<br>
+
+
 
 ## Data
 Input data are consists on multivariate time series including:
 * anterior/posterior translation of the knee implant during gait 
 * internal/external rotation of the knee implant during gait
 * flexion/extension rotation of the knee implant during gait
-* axial loading within the knee implant during gait
+* axial loading within the knee implant during gait <br>
 These data are not included in the repo and available on request
 
 ## Repository Structure
