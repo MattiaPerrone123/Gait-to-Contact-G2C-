@@ -30,12 +30,12 @@ These data are not included in the repo and available on request
     * ```model.py:``` model definition and architecture setup
     * ```train_validate.py:``` includes training and validation functions for the model
     * ```evaluate.py:``` metrics and evaluation functions
-    * ```metrics.py:``` functions to for specific metrics calculation like SSIM, NMI, and MAPE
+    * ```metrics.py:``` functions to for specific metrics calculation like SSIM, NMI and MAPE
     * ```hp_tuning.py:``` hyperparameter tuning utilities
     * ```interpolate.py:``` functions to export data from Abaqus 
 * ```docs/```
     * ```abstract ISTA 2024:``` abstract accepted at ISTA 2024 and presented as a podium presentation
-    * ```paper medRxiv:``` preprint version of the research paper currently under reviw
+    * ```paper medRxiv:``` preprint version of the research paper currently under review
 * ```figures/```
     * ```pipeline:``` figure showcasing the end-to-end workflow of the project
 * ```requirements.txt:``` list of all necessary dependencies for running the project
